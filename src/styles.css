@@ -1,0 +1,41 @@
+body {
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#canvas {
+  border: 1px solid black;
+  margin: 10px;
+  cursor: crosshair;
+}
+
+#clear,
+#restart,
+#save {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#clear:hover,
+#restart:hover,
+#save:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin: 10px;
+border: 1px solid rgb(159, 159, 159);
+}
